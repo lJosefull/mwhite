@@ -1,0 +1,117 @@
+.sectionContactBanner
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  @media screen and (max-width: 600px)
+    background-position: 100% center
+  .row
+    margin-bottom: 0px !important
+    width: 75%
+    padding: 4% 0% !important
+    @media screen and (max-width: 600px)
+      width: 90%
+      padding-top: 15% !important
+    form
+      @media screen and (max-width: 991px)
+        width: 70%
+        text-align: center
+        margin-left: auto !important
+        margin-right: auto !important
+        display: block !important
+        vertical-align: middle !important
+      @media screen and (max-width: 600px)
+        width: 100%
+      .row
+        width: 100%
+    .inputs
+      margin: 0% !important
+      padding: 1% 0% !important
+      input,textarea
+        background: transparent !important
+        text-align: left
+        border-bottom: 1px solid $white !important
+        margin: 0 !important
+        padding-left: 10px
+        color: $white
+        font-weight: 400
+        font-size: 13pt
+        height: 35px !important
+        width: 80%
+        @media screen and (max-width: 600px)
+          width: 100%
+        &:focus
+          border-bottom: 1px solid $white !important
+          -webkit-box-shadow: none !important
+          box-shadow: none !important
+        &::placeholder
+          font-size: 13pt
+          font-weight: 400
+          color: $white
+          opacity: 1
+          text-transform: uppercase
+          font-family: $font-terciaria
+      .error
+        border-bottom: 1px solid red !important
+        &:focus
+          border-bottom: 1px solid red !important
+    .error
+      border-bottom: 1px solid red !important
+      &:focus
+        border-bottom: 1px solid red !important
+    textarea
+      width: 92% !important
+      height: 100px !important
+      min-height: 100px
+      max-height: 100px
+      @media screen and (max-width: 600px)
+        width: 104% !important
+    p
+      text-align: center
+      text-transform: capitalize
+      position: relative
+      top: 20px
+      label
+        [type="checkbox"]:not(:checked)+span:before, [type="checkbox"]:not(:checked)+span:after
+          border: 1px solid #ffffff !important
+          border-radius: 50px
+          top: 3px !important
+        [type="checkbox"]:checked+span:after, [type="checkbox"].with-gap:checked+span:after
+          background-color: $color-secundario !important
+          border: 2px solid $color-secundario !important
+          border-radius: 50px
+          top: 3px !important
+        [type="checkbox"].filled-in:checked + span:not(.lever)::before
+          top: 4px !important
+        span
+          font-weight: 100
+          font-size: 11pt
+          color: #ffffff
+          a
+            color: #ffffff
+  .texalignCenter991
+    @media screen and (max-width: 991px)
+      text-align: center
+  .btn
+    margin-top: 4%
+    background: $color-principal
+    border: 1px solid transparent
+    border-radius: 50px
+    width: auto
+    color: $black
+    font-size: 10pt
+    font-weight: 600
+    -webkit-box-shadow: none
+    box-shadow: none
+    text-transform: uppercase
+    line-height: 37px
+    height: 40px
+    padding: 0% 10%
+    @media screen and (max-width: 600px)
+      margin-top: 10%
+      padding: 0% 20%
+    &:hover
+      cursor: pointer
+      background: $color-sexto
+      color: $white
+      -webkit-box-shadow: none
+      box-shadow: none

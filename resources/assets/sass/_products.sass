@@ -1,0 +1,73 @@
+.product
+  text-align: center
+  &:hover
+    cursor: pointer
+    .btn img
+      display: block
+  .divImg
+    display: table
+    width: 100%
+    margin: 0 auto
+    div
+      display: table-cell
+      height: 200px
+      vertical-align: middle
+      img
+        max-width: 100%
+        max-height: 100%
+        bottom: 0px
+  h1,h2,h3
+    width: 100% !important
+  h1
+    font-size: 11pt !important
+    margin: 2% 0%
+    margin-top: 15%
+    text-transform: uppercase
+    font-weight: 300
+  h2
+    margin: 2% 0%
+    font-size: 12pt
+    span
+      margin-right: 4px
+    .before
+      font-size: 11pt
+      font-weight: 300
+      text-decoration: line-through
+    .value
+      font-size: 11pt
+      font-weight: bold
+    .discount
+      font-size: 11pt
+      color: $color-principal
+      font-weight: bold
+  h3
+    font-size: 11pt
+    margin: 2% 0%
+    font-weight: 400
+    color: #989898
+  .btn
+    margin: 2% 0%
+    background: $color-principal
+    border: 1px solid transparent
+    border-radius: 50px
+    width: auto
+    color: $black
+    font-size: 11pt
+    font-weight: 600
+    -webkit-box-shadow: none
+    box-shadow: none
+    text-transform: uppercase
+    line-height: 40px
+    height: 40px
+    padding: 0% 10%
+    &:hover
+      cursor: pointer
+      background: $color-principal
+      -webkit-box-shadow: none
+      box-shadow: none
+    img
+      display: none
+      position: relative
+      float: left
+      top: 8px
+      margin-right: 8px

@@ -1,0 +1,136 @@
+#modalAccountInfo,#modalAddAddressInfo,#modalEditAddressInfo
+  min-height: 300px !important
+  max-height: 100% !important
+  height: 90vh
+  width: 35%
+  top: 2% !important
+  overflow: auto
+  overflow-x: hidden
+  background-repeat: no-repeat
+  background-position: 0% center
+  background-size: cover
+  @media screen and (max-width: 991px)
+    width: 60%
+  @media screen and (max-width: 600px)
+    width: 90%
+    height: auto
+  .datepicker-modal
+    width: 100% !important
+  .headerLogin
+    position: relative
+    .modal-close
+      margin-top: 4%
+      float: right
+      font-weight: 600
+      font-size: 15pt
+      color: $color-principal
+      right: 2%
+      position: relative
+      text-transform: uppercase
+  h1
+    text-transform: uppercase
+    font-size: 21pt
+    font-family: $font-terciaria
+    color: $color-principal
+    font-weight: 400
+    padding: 4% 0%
+    margin-top: 5%
+    margin-bottom: 0%
+    text-align: center
+  .rowTwo
+    padding: 0% 14%
+    margin-bottom: 0px !important
+    .date
+      .date-input
+        margin-left: -10px
+        padding-left: 10px !important
+        border-bottom: 1.5px solid $white !important
+        color: $white
+        font-weight: 400
+        font-size: 12pt
+        height: 45px !important
+        letter-spacing: 2px
+        width: 100%
+        &:focus
+          border-bottom: 1.5px solid $white !important
+          -webkit-box-shadow: none !important
+          box-shadow: none !important
+        &::placeholder
+          font-weight: 400
+          font-size: 12pt
+          letter-spacing: 2px
+          color: $white
+          text-transform: uppercase
+          font-family: $font-terciaria
+      .error
+        border-bottom: 1px solid red !important
+        &:focus
+          border-bottom: 1px solid red !important
+    .inputs
+      input
+        margin-left: -10px
+        padding-left: 10px !important
+        border-bottom: 1.5px solid $white !important
+        color: $white
+        font-weight: 400
+        font-size: 12pt
+        height: 45px !important
+        letter-spacing: 2px
+        width: 100%
+        &:focus
+          border-bottom: 1.5px solid $white !important
+          -webkit-box-shadow: none !important
+          box-shadow: none !important
+        &::placeholder
+          font-weight: 400
+          font-size: 12pt
+          letter-spacing: 2px
+          color: $white
+          text-transform: uppercase
+          font-family: $font-terciaria
+      select
+        appearance: none
+        background: transparent !important
+        border: none
+        border-bottom: 1px solid $white !important
+        padding-right: 10px
+        color: #ffffff
+        font-weight: 400
+        font-size: 13pt
+        height: 35px !important
+        width: 105%
+        margin-left: -5%
+        option
+          color: $black
+      .error
+        border-bottom: 1px solid red !important
+        &:focus
+          border-bottom: 1px solid red !important
+  .btn
+    margin: 1% 0%
+    background: $color-principal
+    border: 1px solid transparent
+    border-radius: 50px
+    width: auto
+    color: $black
+    font-size: 10pt
+    font-weight: 600
+    -webkit-box-shadow: none
+    box-shadow: none
+    text-transform: uppercase
+    line-height: 37px
+    height: 40px
+    padding: 0% 10%
+    &:hover
+      cursor: pointer
+      background: $color-sexto
+      color: $white
+      -webkit-box-shadow: none
+      box-shadow: none
+
+#modalAddAddressInfo,#modalEditAddressInfo
+  width: 25%
+  @media screen and (max-width: 991px)
+    width: 50%
+  @media screen and (max-width: 991px)
+    width: 90%

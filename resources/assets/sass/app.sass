@@ -1,0 +1,174 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i')
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i')
+@import url('https://fonts.googleapis.com/css?family=VT323')
+// Variables
+@import 'variables'
+@import 'header'
+@import 'footer'
+@import 'login'
+@import 'bono'
+@import 'products'
+@import 'components/home/banner'
+@import 'components/home/marcas'
+@import 'components/home/navProduts'
+@import 'components/home/categorias'
+@import 'components/home/puntos'
+@import 'components/home/logos'
+@import 'components/product/menu'
+@import 'components/product/info'
+@import 'components/howNew/products'
+@import 'AddCarModal'
+@import 'components/about/banner'
+@import 'components/register/banner'
+@import 'components/trucos/list'
+@import 'components/contact/banner'
+@import 'components/contact/puntos'
+
+@import 'components/hotSale/all'
+
+@import 'account/menu'
+@import 'account/account'
+@import 'account/modals'
+@import 'account/carShow'
+@import 'account/Address'
+@import 'account/Follow'
+@import 'account/Pedidos'
+@import 'account/Resume'
+@import 'account/Membrecias'
+@import 'account/MyPoints'
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel
+  background-color: #fff
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04)
+
+html
+  line-height: 0 !important
+
+*
+  font-family: $font-principal
+
+.content
+  visibility: hidden
+  width: 100% !important
+
+body
+  background: #ffffff
+
+#loading
+  position: fixed
+  z-index: 50
+  display: block
+  height: 100vh
+  width: 100%
+  background: $background
+  background: $background-moz
+  background: $background-webkit
+  background: $background-webkit-linear
+  background: $background-o
+  background: $background-ms
+  background: $background-linear
+  filter: $filter
+  overflow: hidden
+  div
+    text-align: center
+    position: fixed
+    top: 35%
+    width: 100%
+    height: 100px
+    img
+      width: 150px
+
+
+.align-center
+  text-align: center
+  margin-left: auto !important
+  margin-right: auto !important
+  display: block !important
+  vertical-align: middle !important
+
+.absoluteCenter
+  position: absolute
+  margin-left: auto
+  margin-right: auto
+  left: 0
+  right: 0
+
+.vhd
+  visibility: hidden !important
+
+.spaceador
+  height: 158px
+  width: 100%
+  background: transparent
+  @media screen and (max-width: 600px)
+    height: 118px
+
+.swal-icon
+  img
+    max-width: 30% !important
+
+.swal-button--confirm
+  background: $color-principal !important
+
+.swal-button:active
+  background-color: $color-principal !important
+
+.swal-button
+  background-color: $color-principal !important
+  color: #ffffff
+  font-weight: bold
+
+.swal-button--cancel
+  color: $color-principal
+  background-color: #ffffff !important
+  border: 1px solid $color-principal !important
+
+.slick-slide:focus, a, .modal, select
+  outline: none !important
+
+.datepicker-date-display,.timepicker-digital-display
+  background: $color-principal !important
+
+.datepicker-cancel, .datepicker-clear, .datepicker-today, .datepicker-done,.timepicker-close
+  color: $color-principal !important
+
+.datepicker-table td.is-today
+  color: $color-principal !important
+
+.datepicker-table td.is-selected
+  background: $color-principal !important
+  color: #ffffff !important
+
+.datepicker-controls .select-month input
+  width: 85px !important
+
+.btnAccount
+  padding: 0% 4% !important
+  background: $color-principal !important
+  height: 30px !important
+  line-height: 30px !important
+  border: 1px solid transparent !important
+  width: auto !important
+  color: #ffffff !important
+  font-weight: 700 !important
+  font-size: 7pt !important
+  margin-top: 2% !important
+  margin-bottom: 5% !important
+  -webkit-box-shadow: 0 2px 2px 0 $color-principal, 0 3px 1px -2px $color-principal, 0 1px 5px 0 $color-principal !important
+  box-shadow: 0 2px 2px 0 $color-principal, 0 3px 1px -2px $color-principal, 0 1px 5px 0 $color-principal !important
+  text-transform: uppercase !important
+  letter-spacing: 2px !important
+  &:hover
+    cursor: pointer !important
+    background: #ffffff !important
+    color: $color-principal !important
+    border: 1px solid $color-principal !important
+
+button
+  .btnAccount
+    width: 100% !important

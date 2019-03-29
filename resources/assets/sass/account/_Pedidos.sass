@@ -1,0 +1,72 @@
+.listPedidos
+  width: 100%
+  padding-left: 4%
+  margin-top: 5%
+  h6
+    width: 100%
+    @media screen and (max-width: 600px)
+      margin-top: 10%
+    a
+      float: right
+      font-size: 10pt
+      font-weight: 600
+      color: $black
+      text-transform: uppercase
+  table
+    border-radius: 10px
+    border: 1px solid #8080804d
+    border-collapse: inherit
+    padding-top: 2%
+    top: 20px
+    position: relative
+    thead
+      @media screen and (max-width: 600px)
+        display: none !important
+      tr
+        th
+          padding-left: 2%
+          font-size: 12pt
+          color: $black
+          font-weight: 600
+          text-transform: uppercase
+    tbody
+      td
+        padding: 25px 5px
+      .border-bottom
+        td
+          border-bottom: 1px solid #8080804d !important
+          @media screen and (max-width: 600px)
+            border-bottom: none !important
+            border-right: 1px solid #8080804d !important
+      h6
+        padding-left: 8%
+        font-size: 12pt
+        color: $black
+        font-weight: 300
+        @media screen and (max-width: 600px)
+          padding-left: 0%
+          text-align: center
+      .mayus
+        text-transform: uppercase
+      .precio
+        font-weight: 600
+      .btn
+        background: $color-principal
+        border: 1px solid transparent
+        border-radius: 50px
+        width: auto
+        color: $black
+        font-size: 10pt
+        font-weight: 600
+        -webkit-box-shadow: none
+        box-shadow: none
+        text-transform: uppercase
+        line-height: 40px
+        height: 40px
+        padding: 0% 20%
+        &:hover
+          cursor: pointer
+          color: $white
+          background: $color-sexto
+          -webkit-box-shadow: none
+          box-shadow: none

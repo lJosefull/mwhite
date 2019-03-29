@@ -1,0 +1,258 @@
+.rowMypoints
+  width: 100%
+  padding-left: 6%
+  margin-top: 2%
+  .container-info
+    background: $color-18
+    border-radius: 15px
+    padding: 1% 0%
+    @media screen and (max-width: 600px)
+      padding: 1% 10%
+    .col-points
+      border-right: 1px solid $white
+      @media screen and (max-width: 991px)
+        border-right: none
+    h1
+      width: 100%
+      margin: 5% 0%
+      margin-bottom: 10%
+      padding: 0%
+      font-size: 30pt
+      font-weight: 600
+      color: $black
+      padding-left: 10%
+      @media screen and (max-width: 991px)
+        padding-left: 0%
+        text-align: center
+      span
+        text-transform: uppercase
+        font-size: 10pt
+        margin-top: -1.3%
+        position: absolute
+        @media screen and (max-width: 600px)
+          margin-left: -18%
+    h6
+      width: 100%
+      padding-left: 10%
+      font-size: 12pt
+      color: $black
+      font-weight: 600
+      @media screen and (max-width: 600px)
+        padding-left: 0%
+      span
+        font-weight: 300
+      .mlone
+        margin-left: 30px
+      .mltwo
+        margin-left: 15px
+      .mlthree
+        margin-left: 39px
+  p
+    text-align: right
+    width: 100%
+    font-size: 12pt
+    color: $black
+    font-weight: 300
+    line-height: 25px
+    @media screen and (max-width: 600px)
+      text-align: center
+  .btn
+    background: $color-principal
+    border: 1px solid transparent
+    border-radius: 50px
+    width: auto
+    color: $black
+    font-size: 9pt
+    font-weight: 600
+    -webkit-box-shadow: none
+    box-shadow: none
+    text-transform: uppercase
+    padding: 0% 10%
+    @media screen and (max-width: 600px)
+      width: 100%
+    &:hover
+      cursor: pointer
+      color: $white
+      background: $color-sexto
+      -webkit-box-shadow: none
+      box-shadow: none
+  h5
+    margin-top: 5%
+    padding-left: 4%
+    font-size: 13pt
+    font-weight: 600
+    color: $black
+    text-transform: uppercase
+  table
+    border-collapse: initial
+    border-radius: 10px
+    border: 1px solid #CCCCCC80
+    td,th
+      text-transform: uppercase
+    thead
+      th
+        line-height: 20px
+        font-size: 11pt
+        color: $color-nueve
+        padding-left: 2%
+        font-weight: 400
+      .puntos
+        width: 15%
+        text-align: center
+        padding-left: 0%
+    tbody
+      td
+        font-size: 11pt
+        color: $color-nueve
+        padding: 25px 5px
+        padding-left: 2%
+        font-weight: 300
+        @media screen and (max-width: 600px)
+          line-height: 13px
+      .puntos
+        padding-left: 0%
+        text-align: center
+
+
+
+
+
+#ModalPoints
+  overflow: hidden
+  top: 18% !important
+  width: 44%
+  background: $color-18
+  border-radius: 14px
+  @media screen and (max-width: 991px)
+    width: 65%
+  @media screen and (max-width: 600px)
+    width: 90%
+    height: auto !important
+    overflow: auto
+    overflow-x: hidden
+  .headerLogin
+    position: relative
+    .modal-close
+      margin-top: 2%
+      float: right
+      font-weight: 400
+      font-size: 14pt
+      color: $color-19
+      right: 2%
+      position: relative
+      text-transform: lowercase
+      @media screen and (max-width: 600px)
+        margin-top: 4%
+        right: 4%
+  h6
+    color: $color-nueve
+    font-size: 17pt
+    font-weight: 300
+    text-align: center
+    width: 100%
+    margin: 4% 0%
+    @media screen and (max-width: 600px)
+      margin: 10% 0%
+  .element
+    background: $white
+    text-align: center
+    margin: 3% 0%
+    margin-bottom: 8%
+    padding-top: 3%
+    .flRight
+      text-align: right
+    .flLeft
+      text-align: left
+    h1
+      width: 100%
+      margin: 5% 0%
+      padding: 0%
+      font-size: 30pt
+      font-weight: 600
+      color: $black
+      position: relative
+      margin-bottom: 1%
+    h2
+      margin: 0%
+      padding: 0%
+      width: 100%
+      text-transform: uppercase
+      font-size: 10pt
+      font-weight: 600
+      color: $black
+    .btn
+      background: $color-principal
+      border: 1px solid transparent
+      border-radius: 50px
+      width: auto
+      color: $black
+      font-size: 10pt
+      font-weight: 600
+      -webkit-box-shadow: none
+      box-shadow: none
+      text-transform: uppercase
+      line-height: 40px
+      height: 40px
+      padding: 0% 6%
+      position: relative
+      top: 20px
+      &:hover
+        cursor: pointer
+        color: $white
+        background: $color-sexto
+        -webkit-box-shadow: none
+        box-shadow: none
+  .copy
+    width: 100%
+    padding: 0% 10%
+    margin-bottom: 0%
+    input
+      background: $white !important
+      text-align: center
+      text-transform: uppercase
+      border: 1px solid #CCCCCC !important
+      margin: 0 !important
+      color: $color-19
+      font-weight: 600
+      font-size: 18pt
+      height: 45px !important
+      width: 100%
+      border-radius: 14px
+      margin-top: 2% !important
+      &:focus
+        border: 1px solid #CCCCCC !important
+        -webkit-box-shadow: none !important
+        box-shadow: none !important
+      &::placeholder
+        font-size: 13pt
+        font-weight: 400
+        color: $white
+        opacity: 1
+        text-transform: uppercase
+        font-family: $font-terciaria
+    .error
+      border-bottom: 1px solid red !important
+      &:focus
+        border-bottom: 1px solid red !important
+    p
+      text-align: right
+      width: 100%
+      font-size: 12pt
+      color: $black
+      font-weight: 300
+      line-height: 20px
+      margin: 0%
+      @media screen and (max-width: 600px)
+        text-align: center
+    h2
+      visibility: hidden
+      text-transform: uppercase
+      font-size: 10pt
+      font-weight: 600
+      width: 100%
+      text-align: center
+      margin-top: 7%
+      color: $color-principal
+      &:hover
+        cursor: pointer
+        color: $color-sexto

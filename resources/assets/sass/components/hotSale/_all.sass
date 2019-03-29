@@ -1,0 +1,51 @@
+.rowHotSale
+  width: 93%
+  .notProductos
+    margin-top: 2%
+    text-align: center
+    h6
+      font-size: 15pt
+      text-transform: uppercase
+      color: $color-principal
+    .progress
+      background-color: $color-principal
+      height: 7px
+      .indeterminate
+        background: $color-diez
+  .product
+    height: 300px
+    margin: 5% 0%
+    @media screen and (max-width: 600px)
+      height: 350px
+    &:hover
+      .btn
+        background: $color-diez
+    .btn
+      img
+        display: block
+  .pagination
+    margin-top: 2%
+    @media screen and (max-width: 600px)
+      text-align: center
+    .disabled
+      top: 15px
+      position: relative
+    li.active
+      background: transparent
+      border-radius: 0px
+      border-bottom: 2px solid $color-principal
+      width: 25px
+      &:hover
+        background: $color-principal
+      span
+        top: 15px
+        position: relative
+      a
+        color: $color-nueve
+    li
+      a
+        font-size: 12pt
+        font-weight: 500
+        color: $color-once
+        i
+          color: $color-principal

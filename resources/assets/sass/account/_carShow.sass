@@ -1,0 +1,250 @@
+.carShowRow
+  padding: 2% 3%
+  .notPorducts
+    text-align: center
+    color: $color-principal
+    font-size: 13pt
+    text-transform: uppercase
+    @media screen and (max-width: 600px)
+      margin-bottom: 10%
+  table
+    width: 100%
+    overflow: auto
+    .img
+      width: 20%
+      text-align: center
+      @media screen and (max-width: 600px)
+        width: auto
+      img
+        width: 70%
+        @media screen and (max-width: 600px)
+          width: 50%
+    tr
+      border: none !important
+      @media screen and (max-width: 600px)
+        display: block !important
+    td
+      width: auto
+    .name
+      width: 30%
+      @media screen and (max-width: 600px)
+        width: auto
+    .price
+      width: 20%
+      @media screen and (max-width: 600px)
+        width: auto
+    h4
+      text-transform: uppercase
+      font-size: 12pt
+      font-weight: 300
+      color: $color-nueve
+      @media screen and (max-width: 600px)
+        text-align: center
+    h5
+      text-align: center
+      text-transform: uppercase
+      font-size: 12pt
+      font-weight: 600
+      color: $color-nueve
+    .cant
+      text-align: center
+      margin-left: auto !important
+      margin-right: auto !important
+      display: block !important
+      vertical-align: middle !important
+      height: 35px
+      width: 50%
+      div
+        width: 33.3%
+        color: $white
+        text-align: center
+        padding-top: 15px
+        height: 100%
+        float: left
+        .btns
+          background: $color-17 !important
+          border-radius: 50px
+          width: 21px
+          margin-top: -6px
+          @media screen and (max-width: 600px)
+            margin-left: 30% !important
+          &:hover
+            cursor: pointer
+            background: $color-principal !important
+          span
+            position: relative
+            top: -6px
+            font-weight: 600
+      input
+        color: $color-dieciseis
+        font-weight: 600
+        padding-top: 0px !important
+        margin-top: -20px !important
+        border: none !important
+        width: 100% !important
+        text-align: left !important
+        padding-left: 8px
+        @media screen and (max-width: 600px)
+          text-align: center !important
+          padding-left: 0px
+      input:not([type]):disabled, input:not([type])[readonly="readonly"], input[type="text"]:not(.browser-default):disabled, input[type="text"]:not(.browser-default)[readonly="readonly"], input[type="password"]:not(.browser-default):disabled, input[type="password"]:not(.browser-default)[readonly="readonly"], input[type="email"]:not(.browser-default):disabled, input[type="email"]:not(.browser-default)[readonly="readonly"], input[type="url"]:not(.browser-default):disabled, input[type="url"]:not(.browser-default)[readonly="readonly"], input[type="time"]:not(.browser-default):disabled, input[type="time"]:not(.browser-default)[readonly="readonly"], input[type="date"]:not(.browser-default):disabled, input[type="date"]:not(.browser-default)[readonly="readonly"], input[type="datetime"]:not(.browser-default):disabled, input[type="datetime"]:not(.browser-default)[readonly="readonly"], input[type="datetime-local"]:not(.browser-default):disabled, input[type="datetime-local"]:not(.browser-default)[readonly="readonly"], input[type="tel"]:not(.browser-default):disabled, input[type="tel"]:not(.browser-default)[readonly="readonly"], input[type="number"]:not(.browser-default):disabled, input[type="number"]:not(.browser-default)[readonly="readonly"], input[type="search"]:not(.browser-default):disabled, input[type="search"]:not(.browser-default)[readonly="readonly"], textarea.materialize-textarea:disabled, textarea.materialize-textarea[readonly="readonly"]
+          color: $color-dieciseis !important
+  .resumen
+    padding: 5% 10%
+    width: 88%
+    background: $black
+    border-radius: 10px
+    @media screen and (max-width: 600px)
+      width: 100%
+      margin-left: 0% !important
+    h1
+      margin: 0% 0% !important
+      padding: 10% 0%
+      font-size: 12pt
+      font-weight: 500
+      color: $color-principal
+      text-transform: uppercase
+    h2
+      margin: 8% 0% !important
+      font-size: 11pt
+      font-weight: 300
+      color: $white
+      border-bottom: 1px solid #8080804d
+      padding-bottom: 8%
+      span
+        float: right
+    .descountCode
+      display: none
+      color: $color-principal
+      span
+        font-weight: 600
+    .totalResalt
+      font-weight: 600
+      border: none
+    .btn
+      margin: 6% 0%
+      background: $color-principal
+      border: 1px solid transparent
+      border-radius: 50px
+      width: 100%
+      color: $black
+      font-size: 10pt
+      font-weight: 600
+      -webkit-box-shadow: none
+      box-shadow: none
+      text-transform: uppercase
+      line-height: 40px
+      height: 40px
+      &:hover
+        cursor: pointer
+        color: $white
+        background: $color-sexto
+        -webkit-box-shadow: none
+        box-shadow: none
+    .haveCode
+      background: $white
+      color: $black
+      margin: 2% 0%
+      margin-top: 20%
+      &:hover
+        cursor: pointer
+        color: $white
+        background: $color-sexto
+  .modal-overlay
+    opacity: 0.3 !important
+  #ModalCodigo
+    overflow: hidden
+    top: 25% !important
+    width: 44%
+    background: $color-18
+    border-radius: 14px
+    @media screen and (max-width: 991px)
+      width: 60%
+      overflow: auto
+      overflow-x: hidden
+      height: auto
+      min-height: 300px !important
+    @media screen and (max-width: 600px)
+      width: 90%
+    .headerLogin
+      position: relative
+      .modal-close
+        margin-top: 2%
+        float: right
+        font-weight: 400
+        font-size: 14pt
+        color: $color-19
+        right: 2%
+        position: relative
+        text-transform: lowercase
+        @media screen and (max-width: 600px)
+          margin-top: 4%
+          right: 4%
+    h6
+      color: $color-nueve
+      font-size: 17pt
+      font-weight: 300
+      text-align: center
+      width: 100%
+      margin: 4% 0%
+      @media screen and (max-width: 600px)
+        margin: 10% 0%
+    .element
+      background: $white
+      text-align: center
+      margin: 3% 0%
+      margin-bottom: 11%
+      @media screen and (max-width: 600px)
+        margin-bottom: 3%
+      input
+        background: transparent !important
+        text-align: center
+        text-transform: uppercase
+        border: 1px solid #CCCCCC !important
+        margin: 0 !important
+        color: $color-19
+        font-weight: 600
+        font-size: 18pt
+        height: 45px !important
+        width: 40%
+        border-radius: 14px
+        margin-top: 2% !important
+        @media screen and (max-width: 600px)
+          width: 80%
+        &:focus
+          border: 1px solid #CCCCCC !important
+          -webkit-box-shadow: none !important
+          box-shadow: none !important
+        &::placeholder
+          font-size: 13pt
+          font-weight: 400
+          color: $white
+          opacity: 1
+          text-transform: uppercase
+          font-family: $font-terciaria
+      .error
+        border-bottom: 1px solid red !important
+        &:focus
+          border-bottom: 1px solid red !important
+      .btn
+        background: $color-principal
+        border: 1px solid transparent
+        border-radius: 50px
+        width: auto
+        color: $black
+        font-size: 10pt
+        font-weight: 600
+        -webkit-box-shadow: none
+        box-shadow: none
+        text-transform: uppercase
+        line-height: 40px
+        height: 40px
+        padding: 0% 6%
+        position: relative
+        top: 20px
+        &:hover
+          cursor: pointer
+          color: $white
+          background: $color-sexto
+          -webkit-box-shadow: none
+          box-shadow: none

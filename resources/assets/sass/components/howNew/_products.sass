@@ -1,0 +1,70 @@
+.colProducts
+  margin: 3% 0%
+  margin-bottom: 7%
+  padding-left: 4% !important
+  border-left: 1px solid #8080804d
+  @media screen and (max-width: 600px)
+    border-left: none
+  .notProductos
+    margin-top: 2%
+    text-align: center
+    h6
+      font-size: 15pt
+      text-transform: uppercase
+      color: $color-principal
+    .progress
+      background-color: $color-principal
+      height: 7px
+      .indeterminate
+        background: $color-diez
+  .container-principal
+    h1
+      font-size: 10.5pt
+      font-weight: 600
+      color: $color-cuarto
+      text-transform: uppercase
+      margin-bottom: 1.5%
+      margin-top: 1%
+      span
+        margin: 0px 10px
+  .row
+    margin-top: -3%
+    .product
+      height: 300px
+      margin: 5% 0%
+      @media screen and (max-width: 600px)
+        height: 350px
+      &:hover
+        .btn
+          background: $color-diez
+      .btn
+        img
+          display: block
+  .pagination
+    margin-top: 2%
+    @media screen and (max-width: 600px)
+      text-align: center
+    .disabled
+      top: 15px
+      position: relative
+    li.active
+      background: transparent
+      border-radius: 0px
+      border-bottom: 2px solid $color-principal
+      width: 25px
+      &:hover
+        background: $color-principal
+      span
+        top: 15px
+        position: relative
+      a
+        color: $color-nueve
+    li
+      &:hover
+        cursor: pointer
+      a
+        font-size: 12pt
+        font-weight: 500
+        color: $color-once
+        i
+          color: $color-principal

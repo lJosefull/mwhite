@@ -1,0 +1,58 @@
+.sectionHomeNavProducts
+  .rowPrincipal
+    width: 95%
+    @media screen and (max-width: 600px)
+      overflow: hidden
+    #masvendidos,#novedades,#promociones
+      @media screen and (max-width: 600px)
+        width: 100%
+        //margin-left: 10%
+  .navTop
+    background: $white !important
+    width: 100%
+    -webkit-box-shadow: none
+    box-shadow: none
+    margin-top: 4%
+    margin-bottom: 6%
+    padding-left: 34%
+    height: 43px !important
+    border-bottom: 1px solid #80808066
+    @media screen and (max-width: 600px)
+      height: auto !important
+      border-bottom: none
+      padding-left: initial
+    .nav-content
+      height: 43px !important
+      @media screen and (max-width: 600px)
+        height: auto !important
+    .tabs
+      height: 43px !important
+      vertical-align: middle !important
+      @media screen and (max-width: 650px)
+        display: block !important
+        position: inherit !important
+        height: auto !important
+        white-space: inherit !important
+        li
+          width: 100% !important
+      .tab
+        height: 43px !important
+      .indicator
+        background-color: $color-principal
+        height: 3px
+        @media screen and (max-width: 991px)
+          display: none
+      a
+        line-height: 30px
+        color: $black !important
+        font-size: 10.5pt !important
+        font-weight: 700 !important
+        transition: none !important
+      a:focus
+        background: transparent !important
+      a:focus .active
+        background: transparent !important
+      .active
+        border-bottom: none !important
+        font-weight: 700 !important
+        color: $black !important

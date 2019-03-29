@@ -1,0 +1,107 @@
+#modalLogin
+  min-height: 300px !important
+  max-height: 100% !important
+  height: 70vh
+  width: 70%
+  top: 7% !important
+  overflow: hidden
+  background-repeat: no-repeat
+  background-position: 0% center
+  background-size: cover
+  @media screen and (max-width: 600px)
+    width: 90%
+    height: auto
+    overflow: auto
+  .headerLogin
+    position: relative
+    .modal-close
+      margin-top: 4%
+      float: right
+      font-weight: 600
+      font-size: 15pt
+      color: $color-principal
+      right: 2%
+      position: relative
+      text-transform: uppercase
+  .imgFloat
+    position: absolute
+    bottom: 5%
+    width: auto
+    left: 46%
+    @media screen and (max-width: 600px)
+      display: none !important
+  .logo
+    margin-top: 10%
+    width: 45%
+    @media screen and (max-width: 600px)
+      width: 55%
+  .btn
+    margin: 4% 0%
+    margin-bottom: 10%
+    background: $color-principal
+    border: 1px solid transparent
+    border-radius: 50px
+    width: auto
+    color: $black
+    font-size: 9pt
+    font-weight: 600
+    -webkit-box-shadow: none
+    box-shadow: none
+    text-transform: uppercase
+    line-height: 37px
+    height: 40px
+    padding: 0% 20%
+    &:hover
+      cursor: pointer
+      background: $color-sexto
+      color: $white
+      -webkit-box-shadow: none
+      box-shadow: none
+  .forget
+    margin-top: 4%
+    font-size: 10pt
+    font-weight: 300
+    color: $color-siete
+    text-decoration: underline
+    &:hover
+      cursor: pointer
+  .register
+    position: relative
+    top: 15px
+    font-size: 10pt
+    font-weight: 300
+    color: $color-siete
+    &:hover
+      cursor: pointer
+      color: $color-principal
+  .input-field
+    margin-top: 0px !important
+    margin-bottom: 0px !important
+  input
+    margin-left: -10px
+    padding-left: 10px !important
+    border-bottom: 1px solid $white !important
+    color: $white
+    font-weight: 400
+    font-size: 10pt
+    height: 45px !important
+    letter-spacing: 2px
+    width: 70%
+    @media screen and (max-width: 600px)
+      width: 80%
+      margin-left: 0%
+    &:focus
+      border-bottom: 1.5px solid $white !important
+      -webkit-box-shadow: none !important
+      box-shadow: none !important
+    &::placeholder
+      font-weight: 600
+      font-size: 7pt
+      color: $white
+      text-transform: uppercase
+  .error
+    border-bottom: 1px solid red !important
+    &:focus
+      border-bottom: 1px solid red !important
+.modal-overlay
+  opacity: 0.8 !important
